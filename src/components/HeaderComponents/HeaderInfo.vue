@@ -11,9 +11,9 @@ export default {
 </script>
 
 <template>
-    <div class="info background_brown white">
+    <div class="info background_brown text-white">
         <div class="container">
-            <ul class="d-flex justify-between">
+            <ul class="d-flex justify-content-between">
                 <li>
                     <ul class="d-flex">
                         <li
@@ -21,7 +21,7 @@ export default {
                             v-for="(info, index) in store.infos"
                         >
                             <font-awesome-icon
-                                class="icon"
+                                class="pe-1 orange"
                                 :icon="store.icons[index]"
                             ></font-awesome-icon>
                             <a href="#">{{ info }}</a>
@@ -56,13 +56,5 @@ export default {
 
 .list_item {
     padding: 15px 5px;
-}
-
-.social {
-    // background-color: blue;
-    width: 15px;
-    height: 15px;
-    padding: 5px;
-    border-radius: 4px;
 }
 </style>
