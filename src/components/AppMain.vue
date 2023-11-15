@@ -1,11 +1,18 @@
 <script>
+import MainHero from './MainComponents/MainHero.vue';
 export default {
     data() {
         return {};
     },
+
+    components: {
+        MainHero,
+    },
 };
 </script>
 
-<template></template>
+<template>
+    <MainHero />
+</template>
 
 <style></style>

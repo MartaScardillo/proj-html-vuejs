@@ -23,6 +23,19 @@
 .social {
     width: 15px;
     height: 15px;
-    padding: 5px;
-    border-radius: 4px;
+}
+
+.list_item {
+    cursor: pointer;
+    .blue_hover {
+        &:hover {
+            background-color: $blue;
+        }
+    }
+
+    .orange_hover {
+        &:hover {
+            color: $orange;
+        }
+    }
 }

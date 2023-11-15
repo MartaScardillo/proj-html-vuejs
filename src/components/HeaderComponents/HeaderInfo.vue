@@ -33,7 +33,7 @@ export default {
                         <li class="list_item" v-for="social in store.socials">
                             <a href=""
                                 ><font-awesome-icon
-                                    class="social"
+                                    class="social rounded p-1"
                                     :icon="social.class"
                                     :style="{ background: social.color }"
                                 ></font-awesome-icon

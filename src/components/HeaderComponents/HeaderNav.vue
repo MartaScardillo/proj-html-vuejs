@@ -7,7 +7,7 @@ export default {
                 'Home',
                 'About',
                 'Services',
-                'Traning',
+                'Training',
                 'Blogs',
                 'Get In Touch!',
             ],
@@ -19,7 +19,7 @@ export default {
 <template>
     <div class="container">
         <ul class="d-flex align-items-center justify-content-between">
-            <li><img :src="logo" alt="" /></li>
+            <li class="list_item"><img :src="logo" alt="" /></li>
             <li>
                 <ul class="d-flex align-items-center fs-5">
                     <li class="list_item p-4" v-for="(tab, index) in tabs">
@@ -41,19 +41,4 @@ export default {
 
 <style lang="scss">
 @use '../style/partials/common' as *;
-@use '../style/partials/variables' as *;
-
-.list_item {
-    .blue_hover {
-        &:hover {
-            background-color: $blue;
-        }
-    }
-
-    .orange_hover {
-        &:hover {
-            color: $orange;
-        }
-    }
-}
 </style>
