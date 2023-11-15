@@ -1,0 +1,53 @@
+@use './variables' as *;
+
+.background_brown {
+    background-color: $brown;
+}
+
+.icon {
+    color: $orange;
+    padding-right: 5px;
+}
+
+.white {
+    color: $white;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.vertical-align {
+    vertical-align: middle;
+}
