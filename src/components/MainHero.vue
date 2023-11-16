@@ -43,8 +43,6 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../style/partials/common';
-
 .hero {
     height: 600px;
     background-size: cover;
@@ -52,7 +50,6 @@ export default {
 
 .hero_text {
     inline-size: 500px;
-    overflow-wrap: break-word;
 }
 
 .hero_play {

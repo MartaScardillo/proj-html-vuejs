@@ -1,5 +1,5 @@
 <script>
-import { store } from '../../store.js';
+import { store } from '../store.js';
 
 export default {
     data() {
@@ -47,8 +47,6 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../style/partials/common';
-
 .info {
     min-height: 30px;
     font-size: 15px;

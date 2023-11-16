@@ -28,4 +28,32 @@ export const store = reactive({
             color: 'linear-gradient(149deg, rgba(218,12,213,0.8575805322128851) 0%, rgba(195,12,32,1) 35%, rgba(254,255,64,1) 100%)',
         },
     ],
+
+    services: [
+        {
+            img: 'd-1.png',
+            title: 'Pet Sitting',
+            text: 'The readable content of a page when looking at its layout',
+        },
+        {
+            img: 'd-2.png',
+            title: 'Puppy Sitting',
+            text: 'The readable content of a page when looking at its layout',
+        },
+        {
+            img: 'd-3.png',
+            title: 'Dog Walking',
+            text: 'The readable content of a page when looking at its layout',
+        },
+        {
+            img: 'd-4.png',
+            title: 'Night Care',
+            text: 'The readable content of a page when looking at its layout',
+        },
+        {
+            img: 'd-5.png',
+            title: 'Pet Sitting',
+            text: 'The readable content of a page when looking at its layout',
+        },
+    ],
 });

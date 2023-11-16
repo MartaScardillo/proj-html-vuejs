@@ -1,6 +1,7 @@
 <script>
-import MainAboutUs from './MainComponents/MainAboutUs.vue';
-import MainHero from './MainComponents/MainHero.vue';
+import MainAboutUs from './MainAboutUs.vue';
+import MainHero from './MainHero.vue';
+import MainService from './MainService.vue';
 export default {
     data() {
         return {};
@@ -9,6 +10,7 @@ export default {
     components: {
         MainHero,
         MainAboutUs,
+        MainService,
     },
 };
 </script>
@@ -16,6 +18,7 @@ export default {
 <template>
     <MainHero />
     <MainAboutUs />
+    <MainService />
 </template>
 
 <style></style>

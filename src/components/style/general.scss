@@ -1,4 +1,5 @@
-@use './partials/common' as *;
+@use './partials/_variables' as *;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 * {
@@ -21,4 +22,44 @@ ol {
 
 img {
     max-width: 100%;
+}
+
+.background_brown {
+    background-color: $brown;
+}
+
+.background_orange {
+    background-color: $orange;
+}
+
+.orange {
+    color: $orange;
+}
+
+.gray {
+    color: $gray;
+}
+
+.light-gray {
+    color: $lightGray;
+}
+
+.social {
+    width: 15px;
+    height: 15px;
+}
+
+.list_item {
+    cursor: pointer;
+    .blue_hover {
+        &:hover {
+            background-color: $blue;
+        }
+    }
+
+    .orange_hover {
+        &:hover {
+            color: $orange;
+        }
+    }
 }

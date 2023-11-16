@@ -49,8 +49,6 @@ export default {
 </template>
 
 <style lang="scss">
-@use '../style/partials/common';
-
 .background {
     background-repeat: no-repeat;
     background-position-x: right;

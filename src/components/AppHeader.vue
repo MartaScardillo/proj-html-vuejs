@@ -1,6 +1,6 @@
 <script>
-import HeaderInfo from './HeaderComponents/HeaderInfo.vue';
-import HeaderNav from './HeaderComponents/HeaderNav.vue';
+import HeaderInfo from './HeaderInfo.vue';
+import HeaderNav from './HeaderNav.vue';
 
 export default {
     data() {

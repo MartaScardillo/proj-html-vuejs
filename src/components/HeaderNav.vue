@@ -39,6 +39,4 @@ export default {
     </div>
 </template>
 
-<style lang="scss">
-@use '../style/partials/common' as *;
-</style>
+<style lang="scss"></style>
