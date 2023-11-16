@@ -1,10 +1,7 @@
 <script>
-import { store } from '../../store.js';
-
 export default {
     data() {
         return {
-            store,
             heroBkg: 'b.png',
             heroPlay: 'play.png',
         };
@@ -49,7 +46,7 @@ export default {
 @use '../style/partials/common';
 
 .hero {
-    height: 702px;
+    height: 600px;
     background-size: cover;
 }
 

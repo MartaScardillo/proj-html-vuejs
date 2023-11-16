@@ -1,4 +1,5 @@
 <script>
+import MainAboutUs from './MainComponents/MainAboutUs.vue';
 import MainHero from './MainComponents/MainHero.vue';
 export default {
     data() {
@@ -7,12 +8,14 @@ export default {
 
     components: {
         MainHero,
+        MainAboutUs,
     },
 };
 </script>
 
 <template>
     <MainHero />
+    <MainAboutUs />
 </template>
 
 <style></style>
