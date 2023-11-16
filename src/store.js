@@ -56,4 +56,22 @@ export const store = reactive({
             text: 'The readable content of a page when looking at its layout',
         },
     ],
+
+    reasons: [
+        {
+            img: 'w-3.png',
+            title: 'Safety First',
+            text: 'It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout',
+        },
+        {
+            img: 'w-2.png',
+            title: 'Play Yards',
+            text: 'It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout',
+        },
+        {
+            img: 'w-1.png',
+            title: 'Monitor Your Pets',
+            text: 'It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout',
+        },
+    ],
 });

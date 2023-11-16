@@ -35,12 +35,17 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use './style/partials/variables' as *;
 img {
     width: 100px;
 }
 
 .card {
     height: 300px;
+
+    &:hover {
+        background-color: $brown;
+    }
 }
 
 .arrow {
