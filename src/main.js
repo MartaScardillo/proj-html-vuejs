@@ -5,7 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faStar } from '@fortawesome/free-solid-svg-icons';
 
 import {} from '@fortawesome/free-regular-svg-icons';
 
@@ -24,7 +24,8 @@ library.add(
     faPinterestP,
     faTwitter,
     faLinkedinIn,
-    faInstagram
+    faInstagram,
+    faStar
 );
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

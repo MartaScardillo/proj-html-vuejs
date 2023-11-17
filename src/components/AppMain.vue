@@ -2,7 +2,9 @@
 import MainAboutUs from './MainAboutUs.vue';
 import MainChooseUs from './MainChooseUs.vue';
 import MainHero from './MainHero.vue';
+import MainReview from './MainReview.vue';
 import MainService from './MainService.vue';
+
 export default {
     data() {
         return {};
@@ -13,6 +15,7 @@ export default {
         MainAboutUs,
         MainService,
         MainChooseUs,
+        MainReview,
     },
 };
 </script>
@@ -22,6 +25,7 @@ export default {
     <MainAboutUs />
     <MainService />
     <MainChooseUs />
+    <MainReview />
 </template>
 
 <style></style>

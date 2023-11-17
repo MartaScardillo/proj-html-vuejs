@@ -6,7 +6,6 @@ export default {
         return {
             store,
             dogImg: 'why.png',
-            pawImg: 'dog-icon.png',
         };
     },
 };
@@ -20,7 +19,7 @@ export default {
         <div class="col-6">
             <div class="mt-5 p-3">
                 <span class="gray">
-                    <img style="width: 55px" :src="pawImg" alt="" />
+                    <img style="width: 55px" :src="store.pawPrint" alt="" />
                     Choose us
                 </span>
                 <h1>Why Choose Us?</h1>

@@ -1,10 +1,12 @@
 <script>
+import { store } from '../store';
+
 export default {
     data() {
         return {
+            store,
             dogBkg: 'dog-logo.png',
             aboutImg: 'about.png',
-            pawPrint: 'dog-icon.png',
         };
     },
 };
@@ -22,7 +24,7 @@ export default {
                 </div>
                 <div class="col-5">
                     <span class="gray"
-                        ><img class="pe-3" :src="pawPrint" alt="" />About
+                        ><img class="pe-3" :src="store.pawPrint" alt="" />About
                         us</span
                     >
                     <h1 class="my-4">Welcome DogMilo Pets</h1>

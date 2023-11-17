@@ -1,6 +1,7 @@
 import { reactive } from 'vue';
 
 export const store = reactive({
+    pawPrint: 'dog-icon.png',
     infos: ['info@example.com', '+1(817)901 3377'],
     icons: [
         ['fas', 'envelope'],
