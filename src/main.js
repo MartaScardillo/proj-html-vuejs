@@ -10,6 +10,7 @@ import {
     faPhone,
     faStar,
     faAt,
+    faLocationArrow,
 } from '@fortawesome/free-solid-svg-icons';
 
 import {} from '@fortawesome/free-regular-svg-icons';
@@ -31,7 +32,8 @@ library.add(
     faLinkedinIn,
     faInstagram,
     faStar,
-    faAt
+    faAt,
+    faLocationArrow
 );
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

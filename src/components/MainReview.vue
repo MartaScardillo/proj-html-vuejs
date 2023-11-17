@@ -123,5 +123,10 @@ export default {
 
 .arrow {
     width: 40px;
+    padding: 10px;
+
+    &:hover {
+        background-color: $brown;
+    }
 }
 </style>

@@ -75,4 +75,25 @@ export const store = reactive({
             text: 'It is a long established fact that a reader will be distructed by the readable content of a page when looking at its layout',
         },
     ],
+
+    informations: [
+        {
+            title: 'Support',
+            links: [
+                'Contact Us',
+                'Online Chat',
+                'Whatsapp',
+                'Telegram',
+                'Snapchat',
+            ],
+        },
+        {
+            title: 'About',
+            links: ['About Us', 'Blog', 'Career', 'Job', 'In press'],
+        },
+        {
+            title: 'Faq',
+            links: ['Account', 'Order', 'Delivery', 'Payment', 'Return'],
+        },
+    ],
 });
