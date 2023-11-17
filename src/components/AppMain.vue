@@ -1,4 +1,5 @@
 <script>
+import MainCallToAction from './MainCallToAction.vue';
 import MainAboutUs from './MainAboutUs.vue';
 import MainChooseUs from './MainChooseUs.vue';
 import MainHero from './MainHero.vue';
@@ -16,6 +17,7 @@ export default {
         MainService,
         MainChooseUs,
         MainReview,
+        MainCallToAction,
     },
 };
 </script>
@@ -26,6 +28,7 @@ export default {
     <MainService />
     <MainChooseUs />
     <MainReview />
+    <MainCallToAction />
 </template>
 
 <style></style>

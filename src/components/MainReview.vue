@@ -12,7 +12,7 @@ export default {
 
 <template>
     <div
-        class="container d-flex justify-content-center align-items-center"
+        class="container d-flex justify-content-center align-items-center mb-5"
         style="height: 500px"
     >
         <div class="row">
